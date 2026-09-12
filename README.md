@@ -21,9 +21,8 @@ This project documents a self-contained Active Directory lab built using:
 | Domain Controller | AD-DC01 |
 | Operating System | Windows Server 2022 |
 | Domain | corp.local |
-| Network | Host-only |
-| AD-DC01 | 192.168.56.101 |
-| Kali Linux | 192.168.56.102 |
+| Network | Isolated Host-only Network |
+| Client | Kali Linux |
 
 ## Objectives
 
@@ -102,7 +101,7 @@ Sensitive credentials, detailed exploitation procedures, and unnecessary infrast
 
 ## Project Status
 
-Completed:
+### Completed
 
 - [x] Active Directory Domain Controller
 - [x] Domain configuration
@@ -114,7 +113,7 @@ Completed:
 - [x] Domain user enumeration
 - [x] Group enumeration
 
-Future improvements:
+### Future Improvements
 
 - [ ] Add Windows client machine
 - [ ] Create additional security misconfiguration scenarios
